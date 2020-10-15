@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9266F844BA35CB7228FB5693 /* Pods_PottersHouseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B824CA04B89F7A20F9F3CDD2 /* Pods_PottersHouseApp.framework */; };
 		FF6A12DD2531F9CF00792D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A12DC2531F9CF00792D0C /* AppDelegate.swift */; };
 		FF6A12DF2531F9CF00792D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A12DE2531F9CF00792D0C /* SceneDelegate.swift */; };
 		FF6A12E12531F9CF00792D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A12E02531F9CF00792D0C /* ViewController.swift */; };
 		FF6A12E42531F9CF00792D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6A12E22531F9CF00792D0C /* Main.storyboard */; };
 		FF6A12E62531F9D100792D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6A12E52531F9D100792D0C /* Assets.xcassets */; };
 		FF6A12E92531F9D100792D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6A12E72531F9D100792D0C /* LaunchScreen.storyboard */; };
+		FF6A1301253201DB00792D0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A1300253201DB00792D0C /* LoginViewController.swift */; };
+		FF6A1303253201E700792D0C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A1302253201E700792D0C /* RegisterViewController.swift */; };
+		FF6A1305253201F200792D0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A1304253201F200792D0C /* HomeViewController.swift */; };
+		FF6A1307253201FC00792D0C /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A1306253201FC00792D0C /* StartViewController.swift */; };
+		FF6C3F9F2538C46B00738488 /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C3F9E2538C46B00738488 /* ResetViewController.swift */; };
+		FF6C3FA22538C6F600738488 /* Profile+Logo-cfm.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6C3FA12538C6F600738488 /* Profile+Logo-cfm.png */; };
+		FF70053F253321E8004A9D79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF70053E253321E8004A9D79 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04556DD96B05D4ADA116F5E5 /* Pods-PottersHouseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PottersHouseApp.debug.xcconfig"; path = "Target Support Files/Pods-PottersHouseApp/Pods-PottersHouseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B824CA04B89F7A20F9F3CDD2 /* Pods_PottersHouseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PottersHouseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2FAD66375F4D7E7345658D /* Pods-PottersHouseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PottersHouseApp.release.xcconfig"; path = "Target Support Files/Pods-PottersHouseApp/Pods-PottersHouseApp.release.xcconfig"; sourceTree = "<group>"; };
 		FF6A12D92531F9CF00792D0C /* PottersHouseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PottersHouseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6A12DC2531F9CF00792D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF6A12DE2531F9CF00792D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		FF6A12E52531F9D100792D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6A12E82531F9D100792D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF6A12EA2531F9D100792D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6A1300253201DB00792D0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF6A1302253201E700792D0C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FF6A1304253201F200792D0C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF6A1306253201FC00792D0C /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FF6C3F9E2538C46B00738488 /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		FF6C3FA12538C6F600738488 /* Profile+Logo-cfm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Profile+Logo-cfm.png"; path = "../../../../../Downloads/Profile+Logo-cfm.png"; sourceTree = "<group>"; };
+		FF70053E253321E8004A9D79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9266F844BA35CB7228FB5693 /* Pods_PottersHouseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB2DF440A2034C62060F4D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B824CA04B89F7A20F9F3CDD2 /* Pods_PottersHouseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D718AD9A2BCB2D6807C0306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04556DD96B05D4ADA116F5E5 /* Pods-PottersHouseApp.debug.xcconfig */,
+				CE2FAD66375F4D7E7345658D /* Pods-PottersHouseApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF6A12D02531F9CF00792D0C = {
 			isa = PBXGroup;
 			children = (
 				FF6A12DB2531F9CF00792D0C /* PottersHouseApp */,
 				FF6A12DA2531F9CF00792D0C /* Products */,
+				3D718AD9A2BCB2D6807C0306 /* Pods */,
+				1AB2DF440A2034C62060F4D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,54 @@
 		FF6A12DB2531F9CF00792D0C /* PottersHouseApp */ = {
 			isa = PBXGroup;
 			children = (
-				FF6A12DC2531F9CF00792D0C /* AppDelegate.swift */,
-				FF6A12DE2531F9CF00792D0C /* SceneDelegate.swift */,
-				FF6A12E02531F9CF00792D0C /* ViewController.swift */,
-				FF6A12E22531F9CF00792D0C /* Main.storyboard */,
-				FF6A12E52531F9D100792D0C /* Assets.xcassets */,
-				FF6A12E72531F9D100792D0C /* LaunchScreen.storyboard */,
+				FF6C3FA02538C6D400738488 /* Images */,
+				FF70053E253321E8004A9D79 /* GoogleService-Info.plist */,
 				FF6A12EA2531F9D100792D0C /* Info.plist */,
+				FF6A12DE2531F9CF00792D0C /* SceneDelegate.swift */,
+				FF6A12DC2531F9CF00792D0C /* AppDelegate.swift */,
+				FF6A12E72531F9D100792D0C /* LaunchScreen.storyboard */,
+				FF6A12FA2531FB6F00792D0C /* UI */,
+				FF6A12F82531FB4000792D0C /* Media */,
+				FF6A12F52531FAFF00792D0C /* Controllers */,
 			);
 			path = PottersHouseApp;
+			sourceTree = "<group>";
+		};
+		FF6A12F52531FAFF00792D0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A12E02531F9CF00792D0C /* ViewController.swift */,
+				FF6A1300253201DB00792D0C /* LoginViewController.swift */,
+				FF6A1302253201E700792D0C /* RegisterViewController.swift */,
+				FF6A1304253201F200792D0C /* HomeViewController.swift */,
+				FF6A1306253201FC00792D0C /* StartViewController.swift */,
+				FF6C3F9E2538C46B00738488 /* ResetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF6A12F82531FB4000792D0C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A12E52531F9D100792D0C /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		FF6A12FA2531FB6F00792D0C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A12E22531F9CF00792D0C /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FF6C3FA02538C6D400738488 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF6C3FA12538C6F600738488 /* Profile+Logo-cfm.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF6A12ED2531F9D100792D0C /* Build configuration list for PBXNativeTarget "PottersHouseApp" */;
 			buildPhases = (
+				485DA7C15AC5D8417994ADC2 /* [CP] Check Pods Manifest.lock */,
 				FF6A12D52531F9CF00792D0C /* Sources */,
 				FF6A12D62531F9CF00792D0C /* Frameworks */,
 				FF6A12D72531F9CF00792D0C /* Resources */,
+				A578DA5C7F2ACD7975D9ECE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +205,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6A12E92531F9D100792D0C /* LaunchScreen.storyboard in Resources */,
+				FF70053F253321E8004A9D79 /* GoogleService-Info.plist in Resources */,
 				FF6A12E62531F9D100792D0C /* Assets.xcassets in Resources */,
 				FF6A12E42531F9CF00792D0C /* Main.storyboard in Resources */,
+				FF6C3FA22538C6F600738488 /* Profile+Logo-cfm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485DA7C15AC5D8417994ADC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PottersHouseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A578DA5C7F2ACD7975D9ECE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottersHouseApp/Pods-PottersHouseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PottersHouseApp/Pods-PottersHouseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PottersHouseApp/Pods-PottersHouseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF6A12D52531F9CF00792D0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6A1301253201DB00792D0C /* LoginViewController.swift in Sources */,
+				FF6A1307253201FC00792D0C /* StartViewController.swift in Sources */,
+				FF6A1303253201E700792D0C /* RegisterViewController.swift in Sources */,
 				FF6A12E12531F9CF00792D0C /* ViewController.swift in Sources */,
 				FF6A12DD2531F9CF00792D0C /* AppDelegate.swift in Sources */,
 				FF6A12DF2531F9CF00792D0C /* SceneDelegate.swift in Sources */,
+				FF6C3F9F2538C46B00738488 /* ResetViewController.swift in Sources */,
+				FF6A1305253201F200792D0C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +410,7 @@
 		};
 		FF6A12EE2531F9D100792D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04556DD96B05D4ADA116F5E5 /* Pods-PottersHouseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +429,7 @@
 		};
 		FF6A12EF2531F9D100792D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2FAD66375F4D7E7345658D /* Pods-PottersHouseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
